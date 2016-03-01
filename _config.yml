@@ -2,7 +2,7 @@
 title: Bruno Henrique Barbosa
 description: '# egrep -R ''sysadmin|ICT|infosec|stuff'' /bhbarbosa/brain/thoughts'
 url: 'https://bhbarbosa.github.io'
-baseurl: '/'
+# baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 disqus_shortname: 'bhbarbosacombr'
 
@@ -23,17 +23,18 @@ defaults:
         layout: 'post'
 
 # Build settings
-destination: _site
+#destination: _site
 paginate: 10
 permalink: /:year/:month/:title/
+relative_permalinks: true
 markdown: kramdown
 highlighter: rouge
 
-kramdown:
+#kramdown:
   # use Github Flavored Markdown
-  input: GFM
+ # input: GFM
   # do not replace newlines by <br>s
-  hard_wrap: false
+  #hard_wrap: false
 
-gems: ['jekyll-paginate']
+#gems: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
