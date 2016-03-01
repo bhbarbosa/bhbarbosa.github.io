@@ -1,8 +1,13 @@
 # Site settings
 title: Bruno Henrique Barbosa
 description: '# egrep -R ''sysadmin|ICT|infosec|stuff'' /bhbarbosa/brain/thoughts'
+<<<<<<< HEAD
 url: 'https://bhbarbosa.github.io'
 # baseurl: '/'
+=======
+url: 'http://bhbarbosa.com.br'
+baseurl: '/'
+>>>>>>> parent of 699170c... Mudança url
 # google_analytics: 'UA-XXXXXX-X'
 disqus_shortname: 'bhbarbosagithubio'
 
