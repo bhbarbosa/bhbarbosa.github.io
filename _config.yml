@@ -26,6 +26,7 @@ defaults:
 #destination: _site
 paginate: 10
 permalink: /:year/:month/:title/
+relative_permalinks: true
 markdown: kramdown
 highlighter: rouge
 
@@ -35,5 +36,5 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
-#gems: ['jekyll-paginate']
+gems: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
