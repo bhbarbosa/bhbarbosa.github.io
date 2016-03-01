@@ -26,7 +26,6 @@ defaults:
 #destination: _site
 paginate: 10
 permalink: /:year/:month/:title/
-relative_permalinks: true
 markdown: kramdown
 highlighter: rouge
 
