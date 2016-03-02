@@ -2,17 +2,15 @@
 title: Bruno Henrique Barbosa
 description: '# egrep -R ''sysadmin|ICT|infosec|stuff'' /bhbarbosa/brain/thoughts'
 url: 'https://bhbarbosa.github.io'
-# baseurl: '/'
 baseurl: '/'
-# google_analytics: 'UA-XXXXXX-X'
+google_analytics: 'UA-74608033-1'
 disqus_shortname: 'bhbarbosagithubio'
 
 author:
   name: 'Bruno Henrique Barbosa'
   email: bhbarbosa@gmail.com
-  #twitter_username: joshgerdes
-  #facebook_username: joshgerdes
-  #github_username:  joshgerdes
+  twitter_username: bhbarbosa_
+  github_username:  bhbarbosa
   linkedin_username:  bhbarbosa
 
 defaults:
@@ -24,7 +22,6 @@ defaults:
         layout: 'post'
 
 # Build settings
-#destination: _site
 paginate: 10
 permalink: /:year/:month/:title/
 markdown: kramdown
