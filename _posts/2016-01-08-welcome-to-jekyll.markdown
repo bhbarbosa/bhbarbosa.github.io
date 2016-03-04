@@ -18,7 +18,7 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
 
-``` bash
+``` shell
 #!/bin/bash
 echo "oio"
 service httpd start
