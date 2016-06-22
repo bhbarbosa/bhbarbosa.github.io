@@ -1,13 +1,11 @@
 $(function(){
 	
 	var note = $('#note'),
-		ts = new Date(2016, 8, 6, 19, 0),
+		ts = new Date(2016, 8, 6, 19, 0), // 06/09/2016 - 19:00
 		ferias = true;
 	
 	if((new Date()) > ts){
-		// The new year is here! Count towards something else.
-		// Notice the *1000 at the end - time must be in milliseconds
-		ts = (new Date()).getTime() + 10*24*60*60*1000;
+		ts = new Date(2016, 9, 24, 9, 0), // 24/10/2016 - 09:00
 		ferias = false;
 	}
 		
@@ -26,7 +24,7 @@ $(function(){
 				message += "até as minhas férias!";
 			}
 			else {
-				message += "até daqui 10 dias!";
+				message += "até o meu retorno!";
 			}
 			
 			note.html(message);
