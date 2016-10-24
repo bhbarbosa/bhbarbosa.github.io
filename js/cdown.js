@@ -1,11 +1,11 @@
 $(function(){
 	
 	var note = $('#note'),
-		ts = new Date(2016, 8, 6, 19, 0), // 06/09/2016 - 19:00
+		ts = new Date(2017, 5, 9, 19, 0), // 09/06/2017 - 19:00
 		ferias = true;
 	
 	if((new Date()) > ts){
-		ts = new Date(2016, 9, 24, 9, 0), // 24/10/2016 - 09:00
+		ts = new Date(2017, 6, 10, 9, 0), // 10/07/2017 - 09:00
 		ferias = false;
 	}
 		
